@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "http://localhost:8080/users";
+const apiUrl = "https://cards-sever.onrender.com/users";
 
 export const login = async (userLogin) => {
   try {
